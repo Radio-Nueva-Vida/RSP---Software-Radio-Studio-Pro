@@ -147,3 +147,9 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+# --- BASS Audio Engine Sidecar ---
+# Bloquear binarios de BASS para cumplir con su licencia no comercial
+*.dll
+*.so
+*.dylib
+bin/bass/
